@@ -1,6 +1,5 @@
 // data/TestData.js
-// Centralized test data and config (deterministic)
-
+// Centralized test data/config for deterministic runs
 module.exports = {
   credentials: {
     username: 'standard_user',
