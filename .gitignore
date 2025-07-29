@@ -1,0 +1,15 @@
+# Node
+node_modules/
+.env
+*.log
+*.tsbuildinfo
+dist/
+coverage/
+playwright-report/
+test-results/
+videos/
+.sass-cache/
+.idea/
+*.DS_Store
+*.swp
+*.swo
