@@ -1,0 +1,22 @@
+{
+  "name": "saucedemo-pom-automation02",
+  "version": "1.0.0",
+  "description": "Production-ready Playwright POM for saucedemo.com (JavaScript)",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report",
+    "test:chromium": "npx playwright test --project=chromium",
+    "test:firefox": "npx playwright test --project=firefox",
+    "setup": "npm install && npx playwright install",
+    "lint": "npx eslint . --fix || true"
+  },
+  "keywords": ["playwright", "automation", "pom", "saucedemo"],
+  "author": "AutomationBot",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.43.0"
+  },
+  "dependencies": {}
+}
