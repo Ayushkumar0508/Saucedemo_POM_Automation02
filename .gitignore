@@ -1,4 +1,4 @@
-# Node
+# Node & Playwright
 node_modules/
 .env
 *.log
